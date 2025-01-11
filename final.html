@@ -104,8 +104,8 @@
 </head>
 <body>
     <section class="hero">
-        <img src="profile-placeholder.jpg" alt="Your Profile Picture">
-        <h1>Hi, I'm [Your Name]</h1>
+        <img src="my profile.jpeg" alt="Your Profile Picture">
+        <h1>Hi, I'm Nayan Sitoula </h1>
         <p>A Passionate CS Student and Aspiring Developer!</p>
         <div class="buttons">
             <a href="#projects">View My Projects</a>
@@ -127,17 +127,33 @@
             </div>
             <div class="project-card">
                 <h3>Internship Projects</h3>
-                <p>Python-based solutions developed during my internship at Shot Coder Tech.</p>
+                <p> developed during my internship at Shot Coder Tech.</p>
             </div>
         </div>
     </section>
     <!-- End of added segment -->
+     <!-- Add this segment starting here -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+       <div class="social-links">
+    <a href="https://github.com/nayansitoula678" target="_blank">GitHub</a>
+    <a href="https://www.facebook.com/" target="_blank">facebook</a>
+    <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">gmail</a>
+</div>
+
+    </section>
 
     <script>
         // Add dynamic functionality to change the headline text after 3 seconds
         setTimeout(() => {
             const headline = document.querySelector('.hero h1');
-            headline.textContent = "Hi, I'm [Your Name], Let's Build Something Awesome!";
+            headline.textContent = "Hi, I'm Nayan Sitoula , Let's Build Something Awesome!";
         }, 3000);
 
         // Add smooth scroll to the buttons
